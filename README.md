@@ -16,6 +16,11 @@ This repository contains my solutions for the annual [Advent of Code](https://ad
   - `two_star.py` - Solution to the second puzzle
   - `one_star.txt` / `two_star.txt` - Input data files
 
+- **Day 3** - `day_3/`
+  - `one_star.py` - Solution to the first puzzle
+  - `two_star.py` - Solution to the second puzzle
+  - `one_star.txt` / `two_star.txt` - Input data files
+
 ## Progress
 Solutions are being added daily throughout December!
 
