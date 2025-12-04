@@ -39,7 +39,6 @@ def solve():
 
     previous_matrix = [row[:] for row in lines_matrix]
 
-    iterations = 5
     su = 0
     count = 1
     while count > 0:
