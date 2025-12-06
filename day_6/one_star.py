@@ -10,15 +10,12 @@ def read_input():
     for line in raw:
         parts = line.split()
 
-        # If all parts are digits → it's a number row
         if all(p.isdigit() for p in parts):
             number_rows.append(list(map(int, parts)))
 
-        # Otherwise it must be operators
         else:
             operator_row = parts
 
-    # Convert rows → columns
     columns = list(zip(*number_rows))
     return columns, operator_row
 
